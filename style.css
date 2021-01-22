@@ -1,0 +1,30 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+}
+#title {
+  text-align: center;
+}
+.companies,
+.positions {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-evenly;
+}
+.comapanies li .positions li {
+  text-decoration: none;
+  margin: 0 10px;
+}
+.questions {
+  display: flex;
+  flex-direction: column;
+  justify-items: center; 
+}
+
+#reset {
+  display: block;
+  text-align: center;
+  width: 3rem;
+}
